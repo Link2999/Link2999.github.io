@@ -6,6 +6,29 @@ img: game.png
 alt: image-alt
 project-date: May 2016
 meteorshower: Meteor Shower
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+description: 
+    <p class="header"><span>Unity WebGL Player | </span>Meteor Shower</p>
+    <div style = "text-align:center"><h1><u>Meteor Shower</u></h1></div>
+    </div>
+    <div class="template-wrap clear">
+      <br>
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="724px" width="460px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="title"><a href="http://link2999.github.io/">Home</a></div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "project/MeteorShower_Web/Release/MeteorShower_Web.data",
+    codeUrl: "project/MeteorShower_Web/Release/MeteorShower_Web.js",
+    memUrl: "project/MeteorShower_Web/Release/MeteorShower_Web.mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
 
 ---
