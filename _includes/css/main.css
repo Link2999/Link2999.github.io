@@ -366,7 +366,7 @@ footer .footer-below {
 
 .scroll-top {
     z-index: 1049;
-    position: fixed;
+    position: right;
     right: 2%;
     bottom: 2%;
     width: 50px;
@@ -378,7 +378,6 @@ footer .footer-below {
     height: 50px;
     border-radius: 100%;
     font-size: 20px;
-    text-align: right;
     line-height: 28px;
 }
 
