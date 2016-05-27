@@ -378,11 +378,12 @@ footer .footer-below {
     height: 50px;
     border-radius: 100%;
     font-size: 20px;
+    text-align: right;
     line-height: 28px;
 }
 
 .scroll-top .btn:focus {
-    outline: 1;
+    outline: 0;
 }
 
 .portfolio-modal .modal-content {
